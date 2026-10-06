@@ -52,6 +52,10 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 # Kernel
 TARGET_KERNEL_CONFIG := lineage-j2lte_defconfig
 
+# Samsung Camera
+BOARD_USE_SAMSUNG_CAMERAFORMAT_NV21 := true
+TARGET_USES_UNIVERSAL_LIBHWJPEG := true
+
 # Shim
 TARGET_LD_SHIM_LIBS += \
     /system/lib/libcamera_client.so|/vendor/lib/libcamera_client_shim.so \
