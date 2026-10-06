@@ -6,7 +6,6 @@ vendor/firmware/bcm43438A1_V0067.0280.hcd
 # Camera
 lib/hw/camera.exynos3.so:lib/hw/camera.vendor.exynos5.so
 lib/libcamera_metadata.so
-lib/libexynoscamera.so
 lib/libexynoscameraexternal.so
 lib/libseccameracore.so
 lib/libhwjpeg.so
@@ -19,16 +18,10 @@ vendor/lib/libOpenCv.so:lib/libOpenCv.so
 vendor/lib/libsomp.so:lib/libsomp.so
 vendor/firmware/fimc_is_lib_isp.bin
 vendor/firmware/fimc_is_fd.bin
-vendor/firmware/setfile_3l2.bin
-vendor/firmware/setfile_5e3.bin
 
 # Media
 # S5P Multi Format Codec
 vendor/firmware/mfc_fw.bin
-
-# Image subsystem
-vendor/firmware/fimc_is_fd.bin
-vendor/firmware/fimc_is_fw2_3l2.bin
 
 # Mobicore
 app/020a0000000000000000000000000000.drbin:vendor/app/020a0000000000000000000000000000.drbin
