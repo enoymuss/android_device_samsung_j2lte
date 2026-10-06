@@ -4,8 +4,21 @@
 vendor/firmware/bcm43438A1_V0067.0280.hcd
 
 # Camera
-lib/hw/camera.universal7580.so:lib/hw/camera.vendor.universal7580.so
+lib/hw/camera.exynos3.so:lib/hw/camera.vendor.exynos5.so
+lib/libcamera_metadata.so
 lib/libexynoscamera.so
+lib/libexynoscameraexternal.so
+lib/libseccameracore.so
+lib/libhwjpeg.so
+lib/libexynosutils.so
+lib/libcsc.so
+lib/libexynosgscaler.so
+lib/libexynosscaler.so
+lib/libexynosv4l2.so
+vendor/lib/libOpenCv.so:lib/libOpenCv.so
+vendor/lib/libsomp.so:lib/libsomp.so
+vendor/firmware/fimc_is_lib_isp.bin
+vendor/firmware/fimc_is_fd.bin
 vendor/firmware/setfile_3l2.bin
 vendor/firmware/setfile_5e3.bin
 
