@@ -1,3 +1,5 @@
+#RIL
+lib/libcutils_symbol.so
 
 # Bluetooth firmware
 vendor/firmware/bcm43438A1_V0067.0280.hcd
