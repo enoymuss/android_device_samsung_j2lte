@@ -86,6 +86,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.target.rc
 
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service \
+    hostapd \
+    wpa_supplicant \
+    wificond \
+    libwpa_client
 # Radio
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
